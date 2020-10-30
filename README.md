@@ -1,2 +1,2 @@
 # LinuxStuff
-Scripts and configurations for my Linux system
+This repository contains scripts and configurations for my Linux system. (Ubuntu 20.04 LTS)
