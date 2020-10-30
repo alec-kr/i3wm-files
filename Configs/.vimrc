@@ -1,13 +1,13 @@
 " Author - Alec Ramdhan
 " Title - My .vimrc file
 
-" Sidebar - NERDTree.vim
-" Status bar - lightline.vim
-" Other packages - wombat256grf (Can replace default colorscheme)
+" Sidebar - NERDTree.vim - https://github.com/preservim/nerdtree
+" Status bar - lightline.vim - https://github.com/itchyny/lightline.vim
+" Extra Packages - 
 
 " --------------- (Developer Notes) ---------------
-" 1: Use 3024 Night theme in Tilix. (storm119's repo)
-" 2:
+" 1: Implement rainbow brackets
+" 2: Check out Tilix themes - https://github.com/storm119/Tilix-Themes
 
 "Add autoindentation
 set autoindent
