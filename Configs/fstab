@@ -11,4 +11,5 @@ UUID=098318ee-e6ea-473b-b8fb-30aec0d2986c /               ext4    errors=remount
 UUID=523C-65D5  /boot/efi       vfat    umask=0077      0       1
 /swapfile                                 none            swap    sw              0       0
 
+# Mount the SSD partition "SHAREDVOL" with read/write permissions in /media/alec-kr/SHAREDVOL
 /dev/disk/by-label/SHAREDVOL /media/alec-kr/SHAREDVOL auto defaults,uid=1000,gid=1000,umask=000 0 1
