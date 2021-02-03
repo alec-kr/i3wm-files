@@ -116,7 +116,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# export PATH="$HOME/bin/OpenRGB:$PATH"
-
-alias pip=pip3
-alias python=python3
+# This is needed by Starship.rs
+eval "$(starship init bash)"
