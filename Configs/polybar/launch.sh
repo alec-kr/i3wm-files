@@ -9,7 +9,7 @@ killall -q polybar
 # I use a delay because system icons will go
 # on the bar that is first generated.
 polybar controlbar &
-sleep 0.5
+sleep 1
 polybar workspacebar &
-sleep 0.5
+sleep 1
 polybar statusbar &

@@ -27,6 +27,9 @@ primary = #ffb52a
 secondary = #e60053
 alert = #bd2c40
 
+font-1 = FontAwesome:size=10;0
+font-2 = material\-wifi:size=10;0
+
 
 # Volume controls and brightness
 [bar/controlbar]
@@ -38,6 +41,7 @@ offset-x = 85%
 modules-left = pulseaudio xbacklight
 modules-right =
 modules-center = 
+wm-restack = i3
 
 
 # Shows workspace numbers
@@ -47,11 +51,12 @@ override-redirect = false
 width = 10%
 modules-left = i3
 modules-right =
-modules-center =
+modules-center = 
 
 
 # Contains system info
 [bar/statusbar]
+wm-restack = i3
 bottom = false
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 27%
@@ -194,7 +199,7 @@ label-song-ellipsis = true
 type = internal/xbacklight
 
 format = <label> <bar>
-label = BL
+label = BL 
 
 bar-width = 10
 bar-indicator = |
@@ -289,7 +294,7 @@ format-volume = <label-volume> <bar-volume>
 label-volume = VOL %percentage%%
 label-volume-foreground = ${root.foreground}
 
-label-muted = 🔇 muted
+label-muted = VOL muted
 label-muted-foreground = #666
 
 bar-volume-width = 10
