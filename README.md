@@ -13,3 +13,5 @@ starship prompt
 rofi
 
 flameshot
+
+imagemagick (blur lockscreen)
