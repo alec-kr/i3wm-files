@@ -10,6 +10,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod4
+set $mod1 Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -67,6 +68,9 @@ bindsym $mod+Shift+q kill
 
 # Open the rofi search bar
 bindsym $mod+d exec rofi -show drun -theme sidebar -show-icons
+
+# Lock the computer with a blur effect (See script)
+bindsym $mod+$mod1+l exec sh ~/.config/i3/lock.sh
 
 # change focus
 bindsym $mod+j focus left
