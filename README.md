@@ -30,5 +30,18 @@ See installation guide here: [i3-gaps Installation Guide](https://gist.github.co
 Follow the guide here: [i3-gaps Installation Guide](https://en.terminalroot.com.br/how-to-install-i3-gaps-with-rounded-corners/)
 
 ### Vim Plugins
-NERDTree:  [NERDTree Installation](https://github.com/preservim/nerdtree)
-lightline.vim:  [lightline Installation](https://github.com/itchyny/lightline.vim)
+* NERDTree:  [NERDTree Installation](https://github.com/preservim/nerdtree)
+* lightline.vim:  [lightline Installation](https://github.com/itchyny/lightline.vim)
+
+# Extras
+The **Extras** folder contains a few scripts that are not directly related to my i3wm configuration.
+
+`brightness.sh` - This is a script used to reset the screen brightness if you have accidentally set it to 0. (The config allows you to map brightness controls to F7 and F8 so you shouldn't have to worry about this).
+
+`charge_control` - A Python3 widget I made to set the charging threshold on laptops. (Only tested on an ROG G731GU Laptop running Ubuntu 20.04 LTS)
+
+`rog_charge_control_py` - The actual Python3 file for the above widget
+
+`widget_charge_control` - Adds a widget to the Gnome3 bar to set the charging threshold
+
+`wastemem.c` - A program written by Jerry Cooperstein to defrag memory
