@@ -29,9 +29,13 @@ This repository contains scripts and configurations for my Linux system.
     * lightline
 
 ## Installing the packages
+To install the packages, copy and paste:
+
 `sudo apt install i3 kitty polybar rofi flameshot imagemagick xbacklight compton pulseaudio vim`
 
-Starship.rs needs to be installed from the Snap Store `sudo snap install starship`
+Starship.rs needs to be installed from the Snap Store with:
+
+`sudo snap install starship`
 
 ### i3-gaps
 See installation guide here: [i3-gaps Installation Guide](https://gist.github.com/boreycutts/6417980039760d9d9dac0dd2148d4783)
