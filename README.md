@@ -1,4 +1,4 @@
-# i3-Rice
+# i3-rice
 This repository contains scripts and configurations for my Linux system. (Ubuntu 20.04 LTS)
 
 ## Packages Needed
