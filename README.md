@@ -4,11 +4,17 @@ This repository contains scripts and configurations for my Linux system.
 Distro Specs:
 
 Distribution: Ubuntu 20.04 focal
+
 Shell: bash 5.0.17
+
 Terminal: Kitty
+
 WM: i3
+
 GTK Theme: Adwaita-dark [GTK2/3]
+
 Icon Theme: breeze-dark
+
 Font: Noto Sans, 10
 
 ## Packages Needed
