@@ -1,5 +1,15 @@
 # i3-rice
-This repository contains scripts and configurations for my Linux system. (Ubuntu 20.04 LTS)
+This repository contains scripts and configurations for my Linux system.
+
+Distro Specs:
+
+Distribution: Ubuntu 20.04 focal
+Shell: bash 5.0.17
+Terminal: Kitty
+WM: i3
+GTK Theme: Adwaita-dark [GTK2/3]
+Icon Theme: breeze-dark
+Font: Noto Sans, 10
 
 ## Packages Needed
 * i3wm 
@@ -38,7 +48,7 @@ The **Extras** folder contains a few scripts that are not directly related to my
 
 `brightness.sh` - This is a script used to reset the screen brightness if you have accidentally set it to 0. (The config allows you to map brightness controls to F7 and F8 so you shouldn't have to worry about this).
 
-`charge_control` - A Python3 widget I made to set the charging threshold on laptops. (Only tested on an ROG G731GU Laptop running Ubuntu 20.04 LTS)
+`charge_control` - A Python3 widget I made to set the charging threshold on laptops. (Only tested on an ROG G731GU Laptop running Ubuntu 20.04 focal)
 
 `rog_charge_control_py` - The actual Python3 file for the above widget
 
