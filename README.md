@@ -12,3 +12,6 @@ This repository contains scripts and configurations for my Linux system. (Ubuntu
 * xbacklight
 * Compton
 * pulseaudio
+* Vim
+    * NERDTree
+    * lightline
