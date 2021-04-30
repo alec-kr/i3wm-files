@@ -1,28 +1,44 @@
-To run the script, open the terminal and type:
+# 🔋Charge Control🔋
+This is a script I wrote to control the charging threshold on laptops. 
 
-```sudo bash charge_control.sh```
+❗⚠️ This has only been tested on an ROG STRIX G731GU running Ubuntu 20.04 ⚠️❗
 
-OR you can run make the script executable by running: 
+## Dependencies
+The script uses ```zenity```, which enables you to display dialog boxes from the commandline and shell scripts. 
 
-```chmod u+x charge_control.sh```
+To install this, copy, paste and run the following: 
 
+```sudo apt install zenity```
 
-It can then be run by typing: 
+[Zenity Documentation](https://help.gnome.org/users/zenity/)
 
-```sudo ./charge_control.sh```
-
-This script is used to control the charging threshold on laptops.
+## Installation
 The main directory should be placed in the user's home folder ```"~/charge_control/"```
 
+### Setting up the crontab
 When rebooting the computer, the file in the ```/sys``` folder is overwritten with a default value.
-To prevent this, the script will create a hidden file in this directory which will be used to store the value.
-This value will then be copied into the folder, via the root crontab. This way, you can restart your computer,
+To prevent this, the script will use create a file in this directory to store the value.
+This value will then be copied into the ```/sys``` folder, via the root crontab. This way, you can restart your computer,
 and the charging threshold will not be affected.
 
 To access the root crontab, run: 
 
 ```sudo crontab -e```
 
-Place the following line in your root crontab (REPLACE username with your username):
+Place the following line in your root crontab (**Replace username with your username**):
 
 ```@reboot echo $(cat /home/username/charge_control/.charge_control_end_threshold) | tee /sys/class/power_supply/BAT0/charge_control_end_threshold```
+
+### Finishing up
+Make the script executable by running: 
+
+```chmod u+x charge_control.sh```
+
+It can then be executed at any time by typing:
+
+```sudo ./charge_control.sh```
+
+## Usage
+After executing the instructions and code above, you need to select the desired charging threshold, and click "OK".
+
+![Screenshot of Program Running](https://i.imgur.com/5QeYUAY.png)
