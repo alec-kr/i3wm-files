@@ -1,10 +1,13 @@
-To run the script, open the terminal and type: 
+To run the script, open the terminal and type:
+
 ```sudo bash charge_control.sh```
 
 OR you can run make the script executable by running: 
+
 ```chmod u+x charge_control.sh```
 
 It can then be run by typing: 
+
 ```sudo ./charge_control.sh```
 
 This script is used to control the charging threshold on laptops.
@@ -16,7 +19,9 @@ This value will then be copied into the folder, via the root crontab. This way, 
 and the charging threshold will not be affected.
 
 To access the root crontab, run: 
+
 ```sudo crontab -e```
 
 Place the following line in your root crontab (REPLACE username with your username):
-```@reboot echo $(cat /home/username/charge_control/.charge_control_end_threshold) | tee \/sys/class/power_supply/BAT0/charge_control_end_threshold```
+
+```@reboot echo $(cat /home/username/charge_control/.charge_control_end_threshold) | tee /sys/class/power_supply/BAT0/charge_control_end_threshold```
