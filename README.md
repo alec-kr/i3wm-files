@@ -1,6 +1,8 @@
 # i3-rice
 This repository contains scripts and configurations for my Linux system.
 
+![Screenshot of my Linux setup](https://i.imgur.com/7YtFlH2.jpg)
+
 ## Distribution Specificications:
 
 * Distribution: Ubuntu 20.04 focal
@@ -52,10 +54,10 @@ The **Extras** folder contains a few scripts that are not directly related to my
 
 `brightness.sh` - This is a script used to reset the screen brightness if you have accidentally set it to 0. (The config allows you to map brightness controls to F7 and F8 so you shouldn't have to worry about this).
 
-`charge_control` - A Python3 widget I made to set the charging threshold on laptops. (Only tested on an ROG G731GU Laptop running Ubuntu 20.04 focal)
+`charge_control` - A script I made to control the charging threshold on my laptop. 
 
-`rog_charge_control_py` - The actual Python3 file for the above widget
+❗⚠️Only tested on an ROG G731GU Laptop running Ubuntu 20.04 focal⚠️❗
 
-`widget_charge_control` - Adds a widget to the Gnome3 bar to set the charging threshold
+`rog_charge_control_py` - A Python3 implementation of the above charging threshold project using PyQt. NOTE: This lacks features included in the above project.
 
 `wastemem.c` - A program written by Jerry Cooperstein to defrag memory
