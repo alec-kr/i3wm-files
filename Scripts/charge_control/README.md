@@ -6,6 +6,7 @@ OR you can run make the script executable by running:
 
 ```chmod u+x charge_control.sh```
 
+
 It can then be run by typing: 
 
 ```sudo ./charge_control.sh```
