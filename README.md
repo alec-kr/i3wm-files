@@ -1,7 +1,7 @@
 # i3-rice
 This repository contains scripts and configurations for my Linux system.
 
-## Distro Specs:
+## Distribution Specificications:
 
 * Distribution: Ubuntu 20.04 focal
 * Shell: bash 5.0.17
