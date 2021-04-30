@@ -19,4 +19,4 @@ To access the root crontab, run:
 ```sudo crontab -e```
 
 Place the following line in your root crontab (REPLACE username with your username):
-```@reboot echo $(cat /home/username/charge_control/.charge_control_end_threshold) | tee //sys/class/power_supply/BAT0/charge_control_end_threshold```
+```@reboot echo $(cat /home/username/charge_control/.charge_control_end_threshold) | tee \/sys/class/power_supply/BAT0/charge_control_end_threshold```
