@@ -60,4 +60,4 @@ The **Extras** folder contains a few scripts that are not directly related to my
 
 `rog_charge_control_py` - A Python3 implementation of the above charging threshold project using PyQt. NOTE: This lacks features included in the above project.
 
-`wastemem.c` - A program written by Jerry Cooperstein to defrag memory
+`wastemem.c` - A program written by Jerry Cooperstein to defrag memory. Obtained from [here](https://ecee.colorado.edu/~siewerts/extra/code/example_code_archive/a320_code/EXAMPLES/Cooperstein-Drivers/s_17/lab2_wastemem.c)
