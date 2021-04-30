@@ -8,8 +8,8 @@ ask=`zenity --list --title="Charge Threshold Control" --text="Select a charging 
 if [ "$ask" == "60%" ]; then
     echo 60 | sudo tee /sys/class/power_supply/BAT0/charge_control_end_threshold
     # When rebooting, the value in the file is reset to 100. The crontab is used to overwrite this change
-    # Place the following line in your /etc/crontab (REPLACE username with your username):
-    # @reboot root echo $(cat /home/username/charge_control/.charge_control_end_threshold) > /sys/class/power_supply/BAT0/charge_control_end_threshold
+    # Place the following line in your root crontab (REPLACE username with your username):
+    # @reboot echo $(cat /home/username/charge_control/.charge_control_end_threshold) | tee /sys/class/power_supply/BAT0/charge_control_end_threshold
 
     # Create a hidden file in the directory (This will be accessed by crontab when rebooting)
     echo -n 60 > .charge_control_end_threshold
