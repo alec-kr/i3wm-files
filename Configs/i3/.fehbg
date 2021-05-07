@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# This uses feh to set a background when i3 starts.
+# Replace "username" and "filename" with relevant information
+feh --no-fehbg --bg-fill '/home/username/Pictures/Wallpapers/filename.jpg'
