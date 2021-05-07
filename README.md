@@ -20,6 +20,7 @@ This repository contains scripts and configurations for my Linux system.
 * Kitty Terminal
     * Starship.rs
 * Polybar
+    * Font Awesome 5 
 * Rofi
 * Flameshot
 * ImageMagick
@@ -38,6 +39,8 @@ To install the packages, copy and paste:
 Starship.rs needs to be installed from the Snap Store with:
 
 `sudo snap install starship`
+
+To install the Font Awesome fonts that are used by Polybar, click [here](https://use.fontawesome.com/releases/v5.6.3/fontawesome-free-5.6.3-desktop.zip) to download the zip file and follow the YouTube guide [here](https://youtu.be/ws8cu1dWJOo)
 
 ### i3-gaps
 See installation guide here: [i3-gaps Installation Guide](https://gist.github.com/boreycutts/6417980039760d9d9dac0dd2148d4783)
