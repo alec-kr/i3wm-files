@@ -1,5 +1,5 @@
 # i3wm-files
-This repository contains scripts and configurations for my Linux system.
+This repository contains scripts and configuration files for my Linux system.
 
 [View screenshots](#real-cool-heading)
 
