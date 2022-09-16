@@ -1,7 +1,7 @@
 # i3wm-files
 This repository contains scripts and configuration files for my Linux system.
 
-[View screenshots](#real-cool-heading)
+[View screenshots](#screenshots)
 
 ## Distribution Specificications:
 
