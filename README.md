@@ -14,9 +14,9 @@ This repository contains scripts and configuration files for my Linux system.
 * Font: Noto Sans, 10
 
 ## Packages Needed
-* i3wm 
-    * i3-radius 
-    * i3-gaps
+* [i3wm](https://i3wm.org/) 
+    * [i3-radius](https://github.com/terroo/i3-radius) 
+    * i3-gaps(https://github.com/Airblader/i3)
 * Kitty Terminal
     * Starship.rs
 * Polybar
