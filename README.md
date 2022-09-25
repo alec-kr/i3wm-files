@@ -17,7 +17,7 @@ This repository contains scripts and configuration files for my Linux system.
 * [i3wm](https://i3wm.org/) 
     * [i3-radius](https://github.com/terroo/i3-radius) 
     * [i3-gaps](https://github.com/Airblader/i3)
-* Kitty Terminal
+* [Kitty Terminal](https://sw.kovidgoyal.net/kitty/)
     * [Starship.rs](https://starship.rs/)
 * [Polybar](https://github.com/polybar/polybar)
     * Font Awesome 5 
