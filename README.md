@@ -22,8 +22,8 @@ This repository contains scripts and configuration files for my Linux system.
 * [Polybar](https://github.com/polybar/polybar)
     * Font Awesome 5 
 * [Rofi](https://github.com/davatorium/rofi)
-* Flameshot
-* ImageMagick
+* [Flameshot](https://github.com/flameshot-org/flameshot)
+* [ImageMagick](https://github.com/ImageMagick/ImageMagick)
 * xbacklight
 * Compton
 * pulseaudio
